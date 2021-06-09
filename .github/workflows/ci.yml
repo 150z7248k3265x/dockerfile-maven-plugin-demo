@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   build-and-deploy:
-    runs-on: gcr.io/kaniko-project/executor:debug
+    runs-on: ubuntu-lastest
     steps:
     - name: Checkout111111545454
       uses: actions/checkout@v2 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
